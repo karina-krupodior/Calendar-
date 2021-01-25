@@ -1,0 +1,35 @@
+.wrap_create_events{
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50px;
+    border: #F0D38A 10px solid;
+    padding: 5%;
+    background-color: #F0D38A;
+}
+.name_from_event{
+    padding: 20px;
+    font-size: 24px;
+}
+.button_cancel{
+    position: relative;
+    background-color: #be2e33;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    border: solid 1px  #D1C7BF;
+    left: 25%;
+}
+.button_create {
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    border: solid 1px  #D1C7BF;
+}
+.item_from_event{
+    padding: 4%;
+    font-size: 24px;
+}
