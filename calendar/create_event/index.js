@@ -1,5 +1,3 @@
-
-
 function store() {
     let formData = new FormData(document.querySelector('form'))
     console.log(formData, 'form')
@@ -7,21 +5,46 @@ function store() {
     let object = {};
 
     console.log(object, 'obj')
-    formData.forEach(function (value, key) {
+    let memberName = ''
+    formData.forEach((value, key) => {
+        console.log('object[key]', object[key])
+        console.log('key', key)
+        console.log('value', value)
+        if (key === 'member_name') {
+            memberName = value
+        }
         object[key] = value;
     });
-    console.log(formData,'formData')
+    console.log(formData, 'formData')
     let itemsArray = []
     itemsArray.push(object)
-    console.log((itemsArray,'itemsarray'))
-    localStorage.setItem('name', JSON.stringify(itemsArray))
-    let data = JSON.parse(localStorage.getItem('name'))
-    console.log(data, 'data')
-
-
+    console.log(itemsArray, 'itemsarray')
+    console.log('memberName', memberName)
+    localStorage.setItem(memberName, JSON.stringify(itemsArray))
 
 }
 
+
+function showTasks() {
+
+
+    let name = document.querySelector('#choose_members').value
+    console.log(name, 'selectedItem')
+    let personInfo = JSON.parse(localStorage.getItem(name))
+    console.log(personInfo, 'personInfo')
+    // localStorage.getItem - получает данные из localStorage
+
+
+    personInfo.forEach(personData => {
+        console.log(personData.time);
+        let td = document.getElementById(`${personData.time}_${personData.day}`)
+        console.log(td)
+
+        td.innerHTML = personData.event_name;
+
+    })
+
+}
 
 
 
