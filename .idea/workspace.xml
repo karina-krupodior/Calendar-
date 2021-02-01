@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a26a52eb-0000-47fa-b018-604f96b59d05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar/create_event/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/index.html" afterDir="false" />
     </list>
@@ -48,7 +51,8 @@
       <updated>1611608312588</updated>
       <workItem from="1611608314506" duration="13717000" />
       <workItem from="1611744435673" duration="1692000" />
-      <workItem from="1611924155524" duration="20405000" />
+      <workItem from="1611924155524" duration="20738000" />
+      <workItem from="1612175642474" duration="18590000" />
     </task>
     <task id="LOCAL-00001" summary="connect json">
       <created>1611754632441</created>
@@ -57,7 +61,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611754632441</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="render data">
+      <created>1611960696144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611960696144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,20 +76,25 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect json" />
-    <option name="LAST_COMMIT_MESSAGE" value="connect json" />
+    <MESSAGE value="render data" />
+    <option name="LAST_COMMIT_MESSAGE" value="render data" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611608349666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1611608349666" />
-    <state x="329" y="0" key="CommitChangelistDialog2" timestamp="1611754632299">
+    <state x="329" y="0" key="CommitChangelistDialog2" timestamp="1611960696023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611754632299" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1611754667686">
+    <state x="329" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611960696023" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1611960774863">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611754667686" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611960774863" />
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612178471628">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1612178471628" />
   </component>
 </project>
