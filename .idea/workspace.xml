@@ -7,7 +7,6 @@
       <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,9 @@
       <workItem from="1611744435673" duration="1692000" />
       <workItem from="1611924155524" duration="20738000" />
       <workItem from="1612175642474" duration="18590000" />
+      <workItem from="1612216165137" duration="191000" />
+      <workItem from="1612264343299" duration="7611000" />
+      <workItem from="1612351447870" duration="18918000" />
     </task>
     <task id="LOCAL-00001" summary="connect json">
       <created>1611754632441</created>
@@ -68,7 +70,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611960696144</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="buttons added">
+      <created>1612216191794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612216191794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,21 +86,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="connect json" />
     <MESSAGE value="render data" />
-    <option name="LAST_COMMIT_MESSAGE" value="render data" />
+    <MESSAGE value="buttons added" />
+    <option name="LAST_COMMIT_MESSAGE" value="buttons added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1611608349666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1611608349666" />
-    <state x="329" y="0" key="CommitChangelistDialog2" timestamp="1611960696023">
+    <state x="329" y="0" key="CommitChangelistDialog2" timestamp="1612216191586">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="329" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1611960696023" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1611960774863">
+    <state x="329" y="0" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1612216191586" />
+    <state x="531" y="159" key="RollbackChangesDialog" timestamp="1612369264692">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1611960774863" />
+    <state x="531" y="159" key="RollbackChangesDialog/0.0.1440.900@0.0.1440.900" timestamp="1612369264692" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1612216201155">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1612216201155" />
     <state x="518" y="371" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612178471628">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
