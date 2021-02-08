@@ -1,11 +1,21 @@
+function validate() {
+    let event_text = document.getElementById("event_text").value;
+    console.log(event_text)
 
+    if (event_text === "") {
+        event_text.style.background = "red";
+        return false;
+    }
+    return true;
+}
 
 function store() {
+
     history.pushState(null, null, 'http:/calendar/')
     history.go(0)
 
     let formData = new FormData(document.querySelector('form'))
-    console.log(formData,'formData')
+    console.log(formData, 'formData')
     let object = {};
 
     let memberName = ''
@@ -27,17 +37,17 @@ function store() {
 function showTasks() {
     let name = document.querySelector('#choose_members').value
     let personInfo = JSON.parse(localStorage.getItem(name))
-    console.log(personInfo,'personInfo')
-    if(personInfo && personInfo.length) {
+    console.log(personInfo, 'personInfo')
+    if (personInfo && personInfo.length) {
         personInfo.forEach(personData => {
             let td = document.getElementById(`${personData.time}_${personData.day}`)
             let div = document.createElement('div')
             td.prepend(div)
 
-            div.innerHTML = '<button  id = "button_delete"  type="reset" class="cl-btn-7"></button>';
+            div.innerHTML = '<button  id = "button_delete"  type="reset" class="cl-btn-7" data-toggle="modal" data-target="#myModal"> </button>';
             div.prepend(personData.event_text)
 
-
+            let button_delete = document.getElementById("button_delete");
 
             document.getElementById("button_delete").onclick = function () {
 
@@ -63,21 +73,25 @@ function showTasks() {
 
 
                 button_delete.onclick = function () {
-                 modal.classList.add('modal_vis'); // добавляем видимость окна
+
+                    modal.classList.add('modal_vis');
 
                 }
                 span.onclick = function () {
                     modal.style.display = "none";
-                    console.log(span,'span')
                 }
 
                 button_no.onclick = function () {
+                    modal.classList.remove('modal_vis');
                     modal.style.display = "none";
 
                 }
+
                 button_yes.onclick = function () {
+                    localStorage.removeItem(name);
                     div.remove()
                 }
+
 
 
                 window.onclick = function (event) {
