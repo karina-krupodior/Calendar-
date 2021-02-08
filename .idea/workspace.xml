@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a26a52eb-0000-47fa-b018-604f96b59d05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/index.js" afterDir="false" />
