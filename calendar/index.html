@@ -7,9 +7,9 @@
 <body>
 <div   id="container" class="content">
     <h2>Calendar</h2>
-    <form>
-        <select class="choose_name"  id ='choose_members' onchange="showTasks()">
-            <option id="All members">All members</option>
+    <form onchange="showTasks()">
+        <select class="choose_name"  id ="choose_members" onchange="clearAll()">
+            <option id="All_members">All members</option>
             <option id="Anna">Anna</option>
             <option id="Alex">Alex</option>
             <option id="Bob">Bob</option>
@@ -83,7 +83,7 @@
             <td id="14:00_Friday"></td>
         </tr>
         <tr>
-            <td class="time_box" id="15:00">15:00</td>
+            <td class="time_box" >15:00</td>
             <td id="15:00_Monday"></td>
             <td id="15:00_Tuesday"></td>
             <td id="15:00_Wednesday" ></td>

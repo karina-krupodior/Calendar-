@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="wrap_create_events">
-    <form name="form">
+    <form name="form"  onSubmit="return store()" >
         <div class="item_from_event">
             <label for='event_text'>Name of the event</label>
             <input required type="text" id="event_text" class="event_class" name="event_text" placeholder=" "/>
@@ -49,7 +49,7 @@
         </select>
         </div>
         <div class="content">
-            <button type="submit" class="button_create" onclick="validate(); store();" id='button_create'>Create
+            <button type="submit" class="button_create"  id='button_create'>Create
             </button>
             <button class="button_cancel" type="reset" id='button_cancel' onclick="clear()"> Cancel</button>
         </div>

@@ -1,3 +1,7 @@
+.validate{
+    background: #be2e33;
+}
+
 .content {
     max-width: 1200px;
     width: 100%;
@@ -103,7 +107,6 @@ tr:hover td {
     top: 0;
     color: darkred;
     right: 10px;
-    display: block;
     width: 24px;
     height: 24px;
     border: none;
@@ -135,28 +138,28 @@ tr:hover td {
     transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
 }
 
-/*.cl-btn-7:after {*/
-/*    content: '';*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    border-radius: 100%;*/
-/*    background: #337AB7;*/
-/*    z-index: 1;*/
-/*    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);*/
-/*    transform: scale(0.01);*/
-/*}*/
+.cl-btn-7:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    background: #337AB7;
+    z-index: 1;
+    transition: all 0.3s cubic-bezier(0.77, 0, 0.2, 0.85);
+    transform: scale(0.01);
+}
 
-/*.cl-btn-7:hover:after {*/
-/*    transform: scale(1);*/
-/*}*/
+.cl-btn-7:hover:after {
+    transform: scale(1);
+}
 
-/*.cl-btn-7:hover:before {*/
-/*    transform: scale(0.8) rotate(45deg);*/
-/*    color: #fff;*/
-/*}*/
+.cl-btn-7:hover:before {
+    transform: scale(0.8) rotate(45deg);
+    color: #fff;
+}
 
 .modal {
     width: 100%;
@@ -168,15 +171,6 @@ tr:hover td {
     overflow: auto;
     background-color: rgba(0,0,0,0.6);
 }
-
-.modal_hidden {
-    display: none;
-}
-
-.modal_vis {
-    display: block;
-}
-
 .modal .modal_content .close_modal_window {
     color: #aaa;
     float: right;
@@ -219,3 +213,4 @@ tr:hover td {
 .close_modal_window:hover{
     background: #F0D38A;
 }
+

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a26a52eb-0000-47fa-b018-604f96b59d05" name="Default Changelist" comment="ver">
+    <list default="true" id="a26a52eb-0000-47fa-b018-604f96b59d05" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/create_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/create_event.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/global.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calendar/create_event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/create_event/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/calendar/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/calendar/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +15,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1nZrAPXD7jfeV9M9qYTcCDgTYMI" />
   <component name="ProjectViewState">
@@ -55,6 +63,8 @@
       <workItem from="1612216165137" duration="191000" />
       <workItem from="1612264343299" duration="7611000" />
       <workItem from="1612351447870" duration="18918000" />
+      <workItem from="1612863652973" duration="6579000" />
+      <workItem from="1612952861492" duration="18432000" />
     </task>
     <task id="LOCAL-00001" summary="connect json">
       <created>1611754632441</created>
@@ -84,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612795381387</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added validate">
+      <created>1612822198405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612822198405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +112,7 @@
     <MESSAGE value="render data" />
     <MESSAGE value="buttons added" />
     <MESSAGE value="everything works but does not reboot" />
-    <option name="LAST_COMMIT_MESSAGE" value="everything works but does not reboot" />
+    <MESSAGE value="added validate" />
+    <option name="LAST_COMMIT_MESSAGE" value="added validate" />
   </component>
 </project>
