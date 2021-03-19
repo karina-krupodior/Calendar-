@@ -1,3 +1,5 @@
+
+document.querySelector('span').innerHTML = 'Test';
 function store() {
 
     history.pushState(null, null, 'http:/calendar/')
